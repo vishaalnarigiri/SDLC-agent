@@ -1,0 +1,21 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases and indexes
+backend/chroma_db/
+workspace/
+
+# Node dependencies and build folders
+frontend/node_modules/
+frontend/dist/
+frontend/local_workspace/
+
+# Environment files with private API Keys
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
